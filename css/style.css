@@ -1,12 +1,49 @@
 #srch_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 2px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 10px;
 }
+
+#products{
+    width: 300px;
+    background-color: #da4b4b;
+    flex-direction: column;
+}
+
+.prdimg{
+    height: 240px;
+    background-color: red;
+}
+
+.description{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.description h2{
+    margin: 2px;
+    padding: 0;
+
+}
+
+.description p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-wrap: wrap;
+}
+

@@ -1,5 +1,7 @@
-let srch_btn=document.getElementById("srch_btn");
-
-
-const search_btn = () => {
-  console.log('Ha clicked')}
+fetch('https://dummyjson.com/products')
+.then(alu => alu.json())
+.then((data)=>{
+    data.map((item)=>{
+        console.log(item)
+    })
+})
